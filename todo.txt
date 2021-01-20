@@ -1,0 +1,11 @@
+Need to do:
+
+* make newsletter scripts actually collect email addresses
+* add all relevent activity pages
+* fix padding and margins around the site 
+* fix carousel nav misplacment on the smallest media 
+* author.html resposiveness consistancy
+
+Would be nice to do:
+
+* Make seths bio image appear between paragraphs on mobile

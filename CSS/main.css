@@ -1,0 +1,583 @@
+ * {
+    box-sizing: border-box;
+ }
+
+ .activityContainer {
+    position: relative;
+ }
+
+ iframe {
+    overflow: hidden;
+ }
+
+ main {
+   display: block;
+   padding: 0 0 2em 0;
+   /* margin-left: 200px; */
+ }
+
+ #buyBanner {
+    text-align: center;
+    background-color: blue;
+    color: green;
+ }
+
+ #activityBox {
+    display: block;
+    width: 100%;
+    /* height: 500px; */
+    margin: auto;
+ }
+
+ #activityNav {
+    /* position: relative; */
+    /* width: 90%; */
+    display: flex;
+    background-color: #ede3bb;
+    margin: auto;
+    padding: 0.5em;
+    text-align: center;
+ }
+
+ #aboutAuthor {
+   overflow: hidden;
+       width: 100%;
+ }
+
+ #left-col {
+   float: left;
+   width: 50%;
+   background-color: orange;
+   padding-bottom: 500em;
+   margin-bottom: -500em;
+ }
+
+ #right-col {
+   float: left;
+   width: 50%;
+   margin-right: -1px; /* Thank you IE */
+   border-left: 1px solid black;   
+   padding-bottom: 500em;
+   margin-bottom: -500em;
+ }
+
+#activityContainer {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 35px;
+   margin: 2em, 0, 2em, 0;
+   height: 0;
+   overflow: hidden;
+}
+
+ #activityContainer iframe {
+    display: flex;
+    border: none;
+    background-color: #ede3bb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+ }
+
+ #mobile {
+   display: inline;
+ }
+
+ #desktop {
+   display: inline;
+ }
+
+ .cartest {
+   width: 100.0%;
+ }
+
+ body {
+    align-content: center;
+    font-family: 'Bangers', cursive;
+    font-family: 'Gochi Hand', cursive;
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Vampiro One', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    background-image: url(../src/bkg.gif);
+    background-color: #5E733F;
+    background-size: 55%;
+ }
+
+ main {
+    /* padding-top: 2em; */
+ }
+
+#content {
+   font-size: larger;
+   background-color: #ede3bb;
+   width: 80%;
+  margin-right: auto;
+   margin-left: auto;
+   min-width: 900px;
+   max-width: 1280px;
+   /* box-shadow: 3px 3px 3px #050303; */
+}
+
+#links {
+   padding: 1em 0.5em 1em 0.5em;
+   margin-bottom: 0;
+   align-content: center;
+   text-align: center;
+}
+
+#links .active {
+   color: #BF7160;
+}
+
+
+#links a {
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+   text-decoration: inherit;
+}
+
+#links a:hover {
+   background-color: #5E733F;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+}
+
+.NormalAnchor {
+   color: #ede3bb;
+}
+
+.NormalAnchor:hover {
+   color: #ede3bb;
+}
+
+.ImportantAnchor {
+   background-color: rgb(195, 204, 66);
+   color:#143a05;
+}
+
+.ImportantAnchor:hover {
+   background-color:#143a05;
+   color:rgb(195, 204, 66);
+}
+
+nav {
+   background-color: #1b4624;
+   font-family: 'Indie Flower', cursive;
+   color: #BF7160;
+   float: none;
+   width: 100%;
+   font-weight: bold;
+   text-align: left;
+   font-size: 1.5em;
+}
+
+#navTitle {
+   padding-top: 1em;
+   color: white;
+   font-family: 'Caveat Brush', cursive;
+   text-decoration: none;
+   align-content: center;
+   text-align: center;
+}
+
+
+#navTitle a h4{
+   float: bottom;
+   color: white;
+   font-family: 'Caveat Brush', cursive;
+   text-decoration: inherit; 
+   align-content: center;
+   text-align: center;
+}
+
+#navTitle img {
+   width: 25%;
+   float: none;
+}
+
+#tagline {
+   color: white;
+   text-align: center;
+}
+
+.popup {
+   position: relative;
+   background: #FFF;
+   padding: 20px;
+   width:auto;
+   max-width: 500px;
+   margin: 20px auto;
+}
+
+h1 {
+   text-align: center;
+   font-family: 'Nothing You Could Do', cursive;
+}
+
+ nav a {
+   text-decoration: none;
+ }
+
+ /* nav a:link {
+   color: #FEF6C2;
+ }
+
+ nav a:visited {
+   color: #D2B48C;
+ }
+
+ nav a:hover { 
+   color: #CC9933;
+ } */
+
+ nav ul {
+   list-style-type: none;
+   padding-left: 0;
+   list-style-type: none;
+ }
+
+ nav li {
+    display: inline-block;
+    margin-right: 1em;
+ }
+
+ button {
+    padding-right: 2em;
+    padding-left: 2em;
+ }
+
+ #navbar {
+   background-color: #1b4624;
+ }
+
+ footer {
+   background-color: #BF7160;
+   color: #1b4624;
+   text-align: center;
+   font-weight: bold;
+   text-align: center;
+   font-style: italic;
+   font-size: 1em;
+   padding-bottom: 10px;
+   border-top: 2px;
+ }
+
+ footer p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+ }
+
+ footer #btn {
+   padding: 3em;
+ }
+
+
+ .textbox {
+   padding-top: 1em;
+   float: none;
+   margin-left: 1em;
+   margin-right: 1em;
+ }
+
+ .textbox p {
+    margin: 0;
+ }
+
+ header a p {
+    font-size: 1.25em;
+ }
+
+.mobileOnly {
+   display: none;
+}
+
+#SethForestImg {
+   float: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+  margin: 0;
+  background-image: none;
+  }
+
+  .mobileOnly {
+   display: block;
+  }
+
+.mobileHide {
+   display: none;
+}
+
+  header image {
+     width: 100%;
+  }
+
+  #content {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  }
+
+  #navTitle {
+     margin: 2em, 0, 20em;
+  }
+
+  #navTitle img {
+      width: 30%;
+  }
+
+  h1 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2.5em;
+  }
+
+  nav {
+  float: none;
+  width: 100%;
+  padding-top: 0;
+  margin: 0;
+  font-size: 1.3em;
+  }
+
+  nav li {
+  display: block;
+  }
+
+  head nav a {
+  margin: 0.5em;
+  width: 8em;
+  font-weight: bold;
+  border-style: none;
+  }
+
+  nav ul {
+  padding: 0;
+  margin: 0;
+  }
+
+  main {
+  margin: 0;
+  font-size: 90%;
+  }
+
+  .cartest {
+     margin-top: 2em;
+  }
+
+   #homeCarousel {
+   height: 50%;
+   width: 100%;
+}
+
+   .textbox {
+   border-width: 5px;
+   border: #666666;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+ 
+   #mobile {
+      display: inline;
+    }
+ 
+   body {
+  margin: 0;
+  background-image: none;
+  }
+
+  #content {
+  width: auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  }
+
+  header {
+  border-width: 0px 50px 0px 0px;
+  border-color: black;
+  }
+
+  header img {
+     width: auto;
+  }
+
+  h1 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2.5em;
+  }
+
+  #navTitle img {
+   float: none;
+   align-content: flex-start;
+}
+
+  nav {
+  float: none;
+  width: auto;
+  /* padding-top: 0; */
+  /* margin: 0; */
+  font-size: 1.3em;
+  }
+
+  #navTitle {
+     margin: 2em, 0, 2em;
+  }
+
+  nav li {
+  display: block;
+  }
+
+  nav a {
+  margin-top: 1em;
+  width: 8em;
+  font-weight: bold;
+  border-style: none;
+  }
+
+  nav ul {
+  padding: 0;
+  margin: 0;
+  }
+
+.mobileOnly {
+   display: block;
+  }
+
+.mobileHide {
+   display: none;
+}
+
+#car {
+   display: inline-flex;
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+
+  .cartest{
+   display: inline-flex;
+   margin-top:2em;
+   width: 33.3%;
+  }
+
+  main {
+  margin: 0;
+  font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+   body {
+   margin: 0;
+   background-image: none;
+   }
+
+   #mobile {
+      display: none;
+    }
+
+   #content {
+   width: auto;
+   min-width: 0;
+   margin: 0;
+   padding: 0;
+   box-shadow: none;
+   }
+
+   #homeCarousel {
+      margin:0;
+      width:100%;
+   }
+
+   #textbox {
+      padding-left: 3em;
+   }
+
+   header {
+   border-width: 0px 5px 0px 0px;
+   border-color: #FEF6C2;
+   }
+
+   h1 {
+   margin-top: 0;
+   margin-bottom: 1em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   font-size: 2.5em;
+   }
+
+   #navTitle img {
+      float: none;
+      align-content: flex-start;
+      height: 50px;
+   }
+
+   nav {
+   float: none;
+   width: auto;
+   font-size: 1.3em;
+   }
+
+   nav li {
+   display: block;
+   }
+
+   head nav a {
+   margin: 1em;
+   width: 8em;
+   font-weight: bold;
+   border-style: none;
+   }
+
+   nav ul {
+   padding: 0;
+   margin: 0;
+   }
+
+   main {
+   margin: 0;
+   font-size: 90%;
+   }
+
+
+   footer a {
+      padding: 3em;
+    }
+}
+
+ /* Color pallet
+
+ A - bright green - #95BF56
+ B - Deep blue - #4B5673
+ C - Natural Green - #5E733F
+ D - Brown - #733f34
+ e - Salmon - #BF7160
+
+ Fonts
+
+   font-family: 'Bangers', cursive;
+    font-family: 'Gochi Hand', cursive;
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Vampiro One', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif; */

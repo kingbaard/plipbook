@@ -1,0 +1,26 @@
+body {
+    background-color: #ede3bb;
+}
+
+#activityHomeImg img {
+    width: 1110px;
+    vertical-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    #activityHomeImg img {
+        width: 510px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #activityHomeImg img {
+        width: 690px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    #activityHomeImg img {
+        width: 870px;
+    }
+}
