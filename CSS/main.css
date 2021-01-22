@@ -117,8 +117,7 @@
    font-size: larger;
    background-color: #ede3bb;
    width: 80%;
-  margin-right: auto;
-   margin-left: auto;
+   margin: 0.5em auto 0.5em auto;
    min-width: 900px;
    max-width: 1280px;
    /* box-shadow: 3px 3px 3px #050303; */
@@ -376,6 +375,9 @@ h1 {
 
   .cartest {
      margin-top: 2em;
+  }
+
+  .carousel-indicators {
   }
 
    #homeCarousel {
