@@ -51,7 +51,28 @@
   gtag('config', 'G-8G5TFQTKH8');
 </script>
 
-    
+<!-- TODO: Scroll background -->
+<script>
+  jQuery(document).on("ready", function() {
+    var a = [1, .1, .2, .3];
+    bgscroll > 0 && !function() {
+        var b = $("body").css("background-position-x")
+          , c = 0;
+        setInterval(function() {
+            c -= a[bgscroll],
+            $("body").css("background-position-x", "calc(" + b + " + " + c + "px)")
+        }, 10)
+    }(),
+    fgscroll > 0 && !function() {
+        var b = $("#foreground").css("background-position-x")
+          , c = 0;
+        setInterval(function() {
+            c -= a[fgscroll],
+            $("#foreground").css("background-position-x", "calc(" + b + " + " + c + "px)")
+        }, 10)
+    }()
+})
+</script>
     <!--[if lt IE 9]>
       <script src="scripts/html5shiv.js"></script>
     <![endif]-->

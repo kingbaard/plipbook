@@ -53,10 +53,10 @@
   <!--Align Sethforest.png whenever screen is resized-->
     <script>
     $(document).ready(function() {
-    $("#SethForestImg").css("height", $("#SethBio").height());
+        $(".sethImg").css("height", $("#SethBio").height());
     }); 
     $(window).resize(function() {
-        $("#SethForestImg").css("height", $("#SethBio").height());
+        $("#sethForestImg").css("height", $("#SethBio").height());
     });
     </script>
     
@@ -97,21 +97,20 @@
     </div> -->
     <div class="container">
       <div class="row">
-        <div class="col mobileHide">
-            <img id="SethForestImg" src="src/SethForest.png" style="padding-top: 1em; display: block; margin-left: auto; margin-right: auto;" alt="Author Seth Jensen">
+          <div class="col mobileHide">
+            <img id="sethForestImg" src="src/SethForest.png" style="padding-top: 1em; display: block; margin-left: auto; margin-right: auto;" alt="Author Seth Jensen">
         </div>
-        <div id=SethBio class="col-md textbox">
-          <h3>Meet The Author!</h3>
-          <p>Seth Jensen likes to dance in the kitchen while he cooks. His speciality is Japanese cuisine, but besides being an amazing homecook, Seth is a loving husband. Seth received his art degree in Utah. He currently freelances illustration and design. Seth spent his childhood growing up in Yokohama, Japan. Much of his creativity and style can be traced back to Japanese culture. Even though Plip was published just this year, Seth thought of Plip back in middle school. Seth drew inspiration from Pikmin, Hayao Miyazaki’s characters, and his love of the great outdoors. 
-            <br>
-            <br>
-            Seth is one of many people who experiences anxiety. The nervousness and stress that comes with anxiety made publishing Plip an uphill battle. His family provided comfort, guidance, and access to professional help that was instrumental to his success. Seth wants everybody to know that these struggles are real but can be helped if the right steps are taken. It is his hope that everybody can relate to Plip and find victory in the little things.
+          <div id=SethBio class="col-md textbox" style="padding-top: auto">
+            <h3>Meet The Author!</h3>
+            <p>Seth Jensen likes to dance in the kitchen while he cooks. His speciality is Japanese cuisine, but besides being an amazing homecook, Seth is a loving husband. Seth received his art degree in Utah. He currently freelances illustration and design. Seth spent his childhood growing up in Yokohama, Japan. Much of his creativity and style can be traced back to Japanese culture. Even though Plip was published just this year, Seth thought of Plip back in middle school. Seth drew inspiration from Pikmin, Hayao Miyazaki’s characters, and his love of the great outdoors. 
+              <br>
+              <br>
+              Seth is one of many people who experiences anxiety. The nervousness and stress that comes with anxiety made publishing Plip an uphill battle. His family provided comfort, guidance, and access to professional help that was instrumental to his success. Seth wants everybody to know that these struggles are real but can be helped if the right steps are taken. It is his hope that everybody can relate to Plip and find victory in the little things.
             </p>
             <div class="row mobileOnly">
               <img src="src/SethForest.png" width=60% style="margin-top: 1em; display: block; margin-left: auto; margin-right: auto;" alt="Author Seth Jensen">
+            </div>
           </div>
-        </div>
-      </div>
     </div>
 
     <div class="remodal" data-remodal-id="modal">
@@ -131,13 +130,13 @@
         </div>
       </div>
     </div>
+  </div> 
 </main>
 <footer>
     <p>Copyright 2020 Seth Jensen</p>
     <!-- <a href="https://twitter.com/wahoobio?ref_src=twsrc%5Etfw" class="btn btn-primary">Follow Seth on Twitter!</a> -->
-    <a href="#modal" class="btn btn-success"> Suscribe to Plip's newsletter!</a>
+    <!-- <a href="#modal" class="btn btn-success"> Suscribe to Plip's newsletter!</a> -->
 </footer>
-</div> 
+  </div>
 </body>
-
 </html>
