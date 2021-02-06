@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Plip</title>
+
+<!-- External Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Gochi+Hand&family=Henny+Penny&family=Indie+Flower&family=Nothing+You+Could+Do&family=Sedgwick+Ave&family=Vampiro+One&family=Yanone+Kaffeesatz:wght@566&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="CSS/main.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="Plip book information"/>
+    <meta name="author" content="Brad Jensen"/>
+    <meta name="keywords" content="Plip, book, picture book"/>
+
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+<!-- Remodal -->
+    <link rel="stylesheet" href="scripts/Remodal-1.1.1/src/remodal.css">
+    <link rel="stylesheet" href="scripts/Remodal-1.1.1/src/remodal-default-theme.css">
+    <script src="scripts/Remodal-1.1.1/dist/remodal.min.js"></script>
+
+<!-- Google Analytics -->
+    <!-- <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+    </script> -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-8G5TFQTKH8"></script> -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8G5TFQTKH8');
+    </script>
+  <!--Align Sethforest.png whenever screen is resized-->
+    <script>
+    $(document).ready(function() {
+        $(".sethImg").css("height", $("#SethBio").height());
+    }); 
+    $(window).resize(function() {
+        $("#sethForestImg").css("height", $("#SethBio").height());
+    });
+    </script>
+    
+    <!--[if lt IE 9]>
+      <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <nav>
+          <div id="navTitle">
+            <a class="col" href="index.html">
+              <img src="src/title.png" alt="Plip Tile" width="66" height=100>
+            </a>
+            <div id="tagline">
+              <p>~a book by Seth Jensen~</p>
+            </div>
+          </div>
+          <ol id="links">
+            <li><a class="NormalAnchor" href="index.html">About Plip</a></li>
+            <li><a class="NormalAnchor" href="author.html">About the Author</a></li>
+            <li><a class="NormalAnchor" href="activityPage.html">Activity Page</a></li>
+            <li><a class="NormalAnchor active" href='books.html'>Book List</a></li>
+          </ol>
+        </nav>
+
+    </header>
+  <main>
+    <div class="container" id="bookInfoMaster">
+      <div class="row bookInfo">
+        <div class="col bookCover">
+          <img src='src/cover1-cropped.jpg' width=100%>
+        </div>
+        <div class="col bookDescription">
+          <p>This is a description of the first book</p>
+          <a class='btn btn-outline-primary amazonLink'>Buy on Amazon!</a>
+        </div>
+      </div>
+    </div>
+    <div class="row bookInfo">
+      <div class="col bookCover">
+        <img src='src/coverPage2.png' width=90%>
+      </div>
+      <div class="col bookDescription">
+        <p>This is a description of the next book</p>
+        <a class='btn btn-outline-primary amazonLink'>Buy on Amazon!</a>
+      </div>
+    </div>
+  </div>
+      <!-- <div class="container bookInfo">
+        <div class="row">
+          <div class="col-5 bookCover">
+            <img src='src/coverPage.png' width=100%>
+          </div>
+          <div class="col-5 bookDescription textbox">
+            <p>This is a description of the first book</p> 
+          </div>
+          <div class="col-1 amazonLink">
+            <a class='btn btn-outline-primary'>Buy on Amazon!</a>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="container bookInfo">
+        <div class="row">
+          <div class="col-5 bookCover">
+            <img src='src/coverPage2.png' width=100%>
+          </div>
+          <div class="col">
+            <div class="container textbox">
+              <div class="row">
+                  <div class="col">
+                    <p>This is a description of the first book</p>
+                  </div>
+              </div>
+              <div class="row amazonLink"> -->
+                <!-- <div class="amazonLink"> -->
+                    <!-- <a class='btn btn-outline-primary'>Buy on Amazon!</a> -->
+                <!-- </div> -->
+              <!-- </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </main>
+    <footer>
+      <p>Copyright 2020 Seth Jensen</p>
+      <a  class="btn btn-success"> Buy Plip on Amazon!</a>
+    </footer>
+  </div>
+  </body>
+</html>
