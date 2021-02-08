@@ -246,7 +246,12 @@ h1 {
  }
 
  .bookDescription {
-    margin:auto;
+    padding-top: 1em;
+    margin: auto;
+ }
+
+ .bookDescription p {
+   /* background-color:#928a6a; */
  }
 
  .bookInfo {
